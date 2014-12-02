@@ -6,7 +6,7 @@
 /*   By: yfuks <yfuks@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/24 17:23:09 by yfuks             #+#    #+#             */
-/*   Updated: 2014/12/01 21:47:04 by yfuks            ###   ########.fr       */
+/*   Updated: 2014/12/02 16:32:21 by yfuks            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,5 +73,9 @@ int			key_hook(int keycode, t_env *e)
 
 int			mouse_hook(int button, int x, int y, void *param)
 {
+	(void)button;
+	(void)x;
+	(void)y;
+	(void)param;
 	return (0);
 }

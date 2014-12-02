@@ -6,7 +6,7 @@
 /*   By: yfuks <yfuks@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/24 20:48:23 by yfuks             #+#    #+#             */
-/*   Updated: 2014/12/01 19:11:40 by yfuks            ###   ########.fr       */
+/*   Updated: 2014/12/02 16:35:05 by yfuks            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 
 static void	put_pixel(t_env *e, int x, int y, int coloration)
 {
-	unsigned int	color;
 	int				r;
 	int				g;
 	int				b;

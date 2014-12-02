@@ -6,7 +6,7 @@
 /*   By: yfuks <yfuks@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/24 23:34:46 by yfuks             #+#    #+#             */
-/*   Updated: 2014/12/01 19:11:06 by yfuks            ###   ########.fr       */
+/*   Updated: 2014/12/02 16:32:46 by yfuks            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,6 @@
 static t_pixel	*new_pixel(int x, int y, int power, t_env *e)
 {
 	t_pixel		*new;
-	float		x1;
-	float		y1;
 
 	new = NULL;
 	if ((new = (t_pixel *)malloc(sizeof(t_pixel))))
