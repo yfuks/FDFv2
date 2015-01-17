@@ -17,6 +17,6 @@ https://github.com/jgigault/42MapGenerator
 
 Rendu obtenu :
 <img src="http://i.imgur.com/8IFbSSG.jpg" width="50%"/>
-<img src="http://i.imgur.com/UhGn7dK.jpg" />
+<img src="http://i.imgur.com/UhGn7dK.jpg" width="50%"/>
 
 Ps : Prendre du code, c'est bien, le comprendre c'est mieux ;)
