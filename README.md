@@ -8,7 +8,7 @@ https://github.com/jgigault/42MapGenerator
 - Il peut bien evidemment afficher d'autres maps dites plus "basiques" sans problèmes.
 
 ## Liste des choses géré :
--1 zoom / dezoom
+1- zoom / dezoom
 
 Rendu obtenu :
 <img src="http://i.imgur.com/8IFbSSG.jpg" />
