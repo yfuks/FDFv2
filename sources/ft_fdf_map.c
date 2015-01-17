@@ -6,7 +6,7 @@
 /*   By: yfuks <yfuks@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/24 23:34:46 by yfuks             #+#    #+#             */
-/*   Updated: 2015/01/17 06:22:49 by yfuks            ###   ########.fr       */
+/*   Updated: 2015/01/17 06:55:19 by yfuks            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static t_pixel	*new_pixel(int x, int y, int power, t_env *e)
 		new->x = (x * e->padding) + (y * e->padding * 2)
 			- e->line_size * e->padding * 2;
 		new->y = (y * e->padding) - (x * e->padding / 2)
-			- power * e->power * e->padding;
+			- power * e->power * e->padding / 5;
 		new->power = power;
 	}
 	return (new);
@@ -60,7 +60,7 @@ void			map_ch(t_env *e)
 			e->map[y][x]->x = (xtmp * e->padding) + (ytmp * e->padding * 2)
 				- e->line_size * 2 * e->padding + (e->x * 30);
 			e->map[y][x]->y = (ytmp * e->padding) - (xtmp * e->padding / 2)
-				- (e->map[y][x]->power * e->power * e->padding) + (e->y * 30);
+				- (e->map[y][x]->power * e->power * e->padding / 5) + (e->y * 30);
 			x++;
 		}
 		y++;
