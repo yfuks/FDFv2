@@ -16,7 +16,7 @@ https://github.com/jgigault/42MapGenerator
 > 6. Affichage / Non affichage du menu
 > 7. Quitter le programme
 
-Rendu obtenu :
+## Rendu obtenu :
 
 <img src="http://i.imgur.com/8IFbSSG.jpg" width="50%" align="left"  />
 <img src="http://i.imgur.com/UhGn7dK.jpg" width="50%" align="rigth" />
