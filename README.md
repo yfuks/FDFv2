@@ -12,16 +12,22 @@ https://github.com/jgigault/42MapGenerator
 > 2. Déplacement
 > 3. Augmentation / Diminution de la graduation
 > 4. Remise à 0 des paramètres
-> 5. Coloration en fonction de la hauteur (optimisé suivant: cf lien)
-> 6. Affichage / Non affichage du menu
-> 7. Quitter le programme
+> 5. Initialisation de la map a la taille de l'ecran (aproximatif)
+> 6. Initialisation de la map au centre de l'ecran (aproximatif)
+> 7. Coloration en fonction de la hauteur (optimisé suivant: cf lien)
+> 8. Affichage / Non affichage du menu
+> 9. Quitter le programme
 
 ## Rendu obtenu :
 
 <img src="http://i.imgur.com/8IFbSSG.jpg" width="50%" align="left"  />
 <img src="http://i.imgur.com/UhGn7dK.jpg" width="50%" align="rigth" />
 
-##### Points à améliorer :
+## Points à améliorer / ajouter :
+- Vitesse (comme souvent)
+- Optimisation en memoire (qui ralentirais l'execution, donc à voir)
+- Changement de palette de couleur
+- Améliorer l'initialisation de la map, taille et centrage
 
 
 Ps : Prendre du code, c'est bien, le comprendre c'est mieux ;)
