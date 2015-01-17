@@ -19,4 +19,4 @@ Rendu obtenu :
 <img src="http://i.imgur.com/8IFbSSG.jpg" />
 <img src="http://i.imgur.com/UhGn7dK.jpg" />
 
-Ps : Prendre du code, c'est bien, le comprendre c'est mieux ;)
+*Ps : Prendre du code, c'est bien, le comprendre c'est mieux ;)
