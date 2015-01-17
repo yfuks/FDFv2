@@ -7,13 +7,13 @@ FDFv2 est un logiciel qui consiste à créer graphiquement la representation sch
 https://github.com/jgigault/42MapGenerator
 - Il peut bien evidemment afficher d'autres maps dites plus "basiques" sans problèmes.
 
-> ## Parametres géré :
-> 1. Zoom / Dézoom
-> 2. Déplacement
-> 3. Augmentation / Diminution de la graduation
-> 4. Remise aux valeurs initial des paramètres
-> 5. Affichage / Non affichage du menu
-> 6. Quitter le programme
+## Paramètres géré :
+1. Zoom / Dézoom
+2. Déplacement
+3. Augmentation / Diminution de la graduation
+4. Remise aux valeurs initial des paramètres
+5. Affichage / Non affichage du menu
+6. Quitter le programme
 
 Rendu obtenu :
 <img src="http://i.imgur.com/8IFbSSG.jpg" />
