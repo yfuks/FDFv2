@@ -6,7 +6,7 @@
 #    By: yfuks <yfuks@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/12/02 16:16:09 by yfuks             #+#    #+#              #
-#    Updated: 2014/12/02 16:39:03 by yfuks            ###   ########.fr        #
+#    Updated: 2014/12/02 18:12:07 by yfuks            ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -30,15 +30,15 @@ LIB = /usr/x11/lib -lmlx -lXext -lX11
 all : $(NAME)
 
 $(NAME):
-	make ./libft
-	gcc $(FLAGS) $(SRC) -I $(HEAD) -L $(LIB) -o $(NAME)
+	@make -C ./libft
+	@gcc $(FLAGS) $(SRC) -I $(HEAD) -L $(LIB) -o $(NAME)
 
 clean:
-		make ./libft clean
-		/bin/rm -f $(OBJ)
+		@make -C ./libft clean
+		@/bin/rm -f $(OBJ)
 
 fclean: clean
-		make ./libft fclean
-		/bin/rm -f $(NAME)
+		@make -C ./libft fclean
+		@/bin/rm -f $(NAME)
 
 re: fclean all
