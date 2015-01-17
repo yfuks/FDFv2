@@ -28,6 +28,8 @@ https://github.com/jgigault/42MapGenerator
 - Optimisation en memoire (qui ralentirais l'execution, donc à voir)
 - Changement de palette de couleur
 - Améliorer l'initialisation de la map, taille et centrage
+- Gérer d'autres vue
+- Gérer les faces cachées (risque de ralentir enormement les performances, à voir)
 
 
 Ps : Prendre du code, c'est bien, le comprendre c'est mieux ;)
