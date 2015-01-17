@@ -32,4 +32,4 @@ https://github.com/jgigault/42MapGenerator
 - Gérer les faces cachées (risque de ralentir enormement les performances, à voir)
 
 
-Ps : Prendre du code, c'est bien, le comprendre c'est mieux ;)
+''Ps : Prendre du code, c'est bien, le comprendre c'est mieux ;)''
