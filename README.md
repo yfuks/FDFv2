@@ -21,4 +21,7 @@ https://github.com/jgigault/42MapGenerator
 <img src="http://i.imgur.com/8IFbSSG.jpg" width="50%" align="left"  />
 <img src="http://i.imgur.com/UhGn7dK.jpg" width="50%" align="rigth" />
 
+### Points à améliorer :
+
+
 Ps : Prendre du code, c'est bien, le comprendre c'est mieux ;)
