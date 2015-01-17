@@ -12,8 +12,9 @@ https://github.com/jgigault/42MapGenerator
 > 2. Déplacement
 > 3. Augmentation / Diminution de la graduation
 > 4. Remise à 0 des paramètres
-> 5. Affichage / Non affichage du menu
-> 6. Quitter le programme
+> 5. Coloration en fonction de la hauteur (optimisé suivant: cf lien)
+> 6. Affichage / Non affichage du menu
+> 7. Quitter le programme
 
 Rendu obtenu :
 
