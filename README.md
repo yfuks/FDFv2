@@ -12,8 +12,8 @@ https://github.com/jgigault/42MapGenerator
 2. Déplacement
 3. Augmentation / Diminution de la graduation
 4. Remise à 0 des paramètres
-5. Initialisation de la map a la taille de l'ecran (aproximatif)
-6. Initialisation de la map au centre de l'ecran (aproximatif)
+5. Initialisation de la map a la taille de l'ecran (approximatif)
+6. Initialisation de la map au centre de l'ecran (approximatif)
 7. Coloration en fonction de la hauteur (optimisé suivant: cf lien)
 8. Affichage / Non affichage du menu
 9. Quitter le programme
