@@ -6,7 +6,7 @@
 /*   By: yfuks <yfuks@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/24 20:48:23 by yfuks             #+#    #+#             */
-/*   Updated: 2015/01/17 06:54:04 by yfuks            ###   ########.fr       */
+/*   Updated: 2015/01/17 07:07:33 by yfuks            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ static void	put_line(t_env *e, t_pixel *pixel1, t_pixel *pixel2)
 	x[0] = x[1];
 	if (pixel1->power <= -250)
 		color = 0x000000;
-	else if (pixel1->power < 0 || pixel2->power < 0)
+	else if (pixel1->power <= 0 || pixel2->power <= 0)
 		color = 0x0000FF + pixel1->power;
 	else if (pixel1->power <= 50)
 		color = (0xFF - pixel1->power * 3) << 8;
