@@ -11,7 +11,7 @@ https://github.com/jgigault/42MapGenerator
 > 1. Zoom / Dézoom
 > 2. Déplacement
 > 3. Augmentation / Diminution de la graduation
-> 4. Remise aux valeurs initial des paramètres
+> 4. Remise à 0 des paramètres
 > 5. Affichage / Non affichage du menu
 > 6. Quitter le programme
 
