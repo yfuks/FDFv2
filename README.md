@@ -3,4 +3,4 @@ Programme #YOLO, plutot pas trop mal, pas exactement comme celui rendu, celui-ci
 https://github.com/jgigault/42MapGenerator
 
 Rendu obtenu :
-http://i.imgur.com/8IFbSSG.jpg
+<img src="http://i.imgur.com/8IFbSSG.jpg" />
