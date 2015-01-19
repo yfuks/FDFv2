@@ -21,7 +21,7 @@ https://github.com/jgigault/42MapGenerator
 ## Rendu obtenu :
 
 <img src="http://i.imgur.com/JWHNfpD.jpg" width="50%" align="left"  />
-<img src="http://i.imgur.com/UhGn7dK.jpg" width="50%" align="rigth" heigth="98%"/>
+<img src="http://i.imgur.com/UhGn7dK.jpg" width="50%" align="rigth" heigth="90%"/>
 
 ## Points à améliorer / ajouter :
 - Vitesse (comme souvent)
