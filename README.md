@@ -23,8 +23,7 @@ https://github.com/jgigault/42MapGenerator
 <img src="http://i.imgur.com/JWHNfpD.jpg" align="left"  />
 <img src="http://i.imgur.com/UhGn7dK.jpg" align="left" />
 
-
-
+<br />
 ## Points à améliorer / ajouter :
 - Vitesse (comme souvent)
 - Optimisation en memoire (qui ralentirais l'execution, donc à voir)
