@@ -40,7 +40,7 @@ static void	put_line(t_env *e, t_pixel *pixel1, t_pixel *pixel2)
 	x[2] = pixel2->x;
 	y[1] = pixel2->y;
 	x[0] = x[1];
-	if (pixel1->power <= -250)
+	if (pixel1->power <= -255)
 		color = 0x000000;
 	else if (pixel1->power <= 0 || pixel2->power <= 0)
 		color = 0x0000FF + pixel1->power;
