@@ -13,7 +13,7 @@ https://github.com/jgigault/42MapGenerator
 3. Augmentation / Diminution de la graduation
 4. Remise à 0 des paramètres
 5. Initialisation de la map a la taille de l'ecran (approximatif)
-6. Initialisation de la map au centre de l'ecran (approximatif)
+6. Initialisation de la map au centre de l'ecran
 7. Coloration en fonction de la hauteur (optimisé suivant: cf lien)
 8. Affichage / Non affichage du menu
 9. Quitter le programme
@@ -27,7 +27,7 @@ https://github.com/jgigault/42MapGenerator
 - Vitesse (comme souvent)
 - Optimisation en memoire (qui ralentirais l'execution, donc à voir)
 - Changement de palette de couleur
-- Améliorer l'initialisation de la map, taille et centrage
+- Améliorer l'initialisation de la map (taille) 
 - Gérer d'autres vue
 - Gérer les faces cachées (risque de ralentir enormement les performances, à voir)
 
