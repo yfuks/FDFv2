@@ -19,13 +19,16 @@ static t_pixel	*new_pixel(int x, int y, int power, t_env *e)
 	new = NULL;
 	if ((new = (t_pixel *)malloc(sizeof(t_pixel))))
 	{
-		y += (W_WIDTH / e->padding) / 2;
+		y = y - e->nb_line / 2;
+		x = x - e->size_line / 2;
 		x = (x * 2);
 		new->x = (x * e->padding) + (y * e->padding * 2)
 			- e->line_size * e->padding * 2;
 		new->y = (y * e->padding) - (x * e->padding / 2)
 			- power * e->power * e->padding / 5;
 		new->power = power;
+		new->x += W_HEIGTH / 2;
+		new->y += W_WIDTH / 2;
 	}
 	return (new);
 }
@@ -55,12 +58,15 @@ void			map_ch(t_env *e)
 		x = 0;
 		while (e->map[y][x])
 		{
-			ytmp = y + ((W_WIDTH / e->padding) / 2);
+			ytmp = y - e->nb_line / 2;
+			xtmp = x - e->size_line / 2;
 			xtmp = (x * 2);
 			e->map[y][x]->x = (xtmp * e->padding) + (ytmp * e->padding * 2)
 				- e->line_size * 2 * e->padding + (e->x * 30);
 			e->map[y][x]->y = (ytmp * e->padding) - (xtmp * e->padding / 2)
 				- (e->map[y][x]->power * e->power * e->padding / 5) + (e->y * 30);
+			e->map[y][x]->x += W_HEIGTH / 2;
+			e->map[y][x]->y += W_WIDTH / 2;
 			x++;
 		}
 		y++;
